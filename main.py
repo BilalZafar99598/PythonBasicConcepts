@@ -170,11 +170,73 @@ ctrl+? is use for multi-line comments after selecting multiple lines.
 # # print(f"Value of Num1 is {num1} and Value of Num2 is {num2} and Value of Num3 is {num3} and Value of Total is {addValues}")
 # print("Value of Num1 is {} and Value of Num2 is {} and Value of Num3 is {} and Value of Total is {}".format(num1,num2,num3,addValues))
 
+"""
+Strings 
+Strings Builtin functions
+User define
+"""
+# name = "ali khan"
+# NAME = "BILAL KHAN"
+# # print(name.upper())
+# print(NAME.lower())
+
+# brand = "kfc"
+# # print(brand.capitalize())
+# print(brand.islower())
+
+"""
+Slicing 
+        We can get a substring from a string
+        Syntax:
+            string[start:end] end point is not included
+        
+        Convert one type to another is called a Type Casting
+        
+"""
+# text = "My name is Bilal"
+# print(text[3:8])
+# weight = str(44.5)
+# print(type(weight))
+
+"""
+List Data Type 
+Lists are use for the collection data.
+a = 10
+b= 15
+10,15,12,11
+
+    Syntax:
+        listData = [ 1,2,3,4,5,6 ]
+"""
+# a = 1
+# b = 23
+# c = 66
+# numbers = [ 1,23,66,44,33 ]
+# print(type(numbers))
+"""
+How we can access data from List
+Ans:
+    We can assess data from list using Index Numbers. Index NUmbers are actually position number
+    and in Programmn=ing Languages Index Number is always start from Zero 0.
+"""
 
 
-
-
-
-
-
-
+# names = ["Ali","Omer","Khan","Haris","Butt"]
+# print(names)
+# print(names[0])
+# print(names[1])
+# print(names[2])
+# print(names[3])
+# print(names[4])
+"""
+We want to get Data from List and we need data except 1st and Last data element.
+We will apply slicing on list 
+Why we are using Negative Index 
+If we are using Negative it will gices the last element of the list.
+"""
+names = ["Ali","Omer","Khan","Haris","Butt"]
+# print(names[1:-2])
+"""
+How we can display reverse List
+"""
+print(names[::-1])
