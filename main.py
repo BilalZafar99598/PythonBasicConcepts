@@ -234,9 +234,62 @@ We will apply slicing on list
 Why we are using Negative Index 
 If we are using Negative it will gices the last element of the list.
 """
-names = ["Ali","Omer","Khan","Haris","Butt"]
+# names = ["Ali","Omer","Khan","Haris","Butt"]
 # print(names[1:-2])
 """
 How we can display reverse List
 """
-print(names[::-1])
+# print(names[::-1])
+
+"""
+Technical we can prove that python is a case sensitive language by using a builtin function name 
+id()
+"""
+# name = "Ali"
+# name = "Omer"
+# print(id(name))
+# print(id(name))
+
+"""
+What is Variable Declaration and Initialization ?
+VD:
+    In simple words VD is just create a new variable is called a Variable Declaration.
+    example:
+            a = 10
+
+VI:
+    In simple words, VI is just to assign a value or Data to a newly create variable.
+    OR to pass a value to a variable is called VI
+"""
+
+"""
+What are rules to create a Variable ?
+1.  the variWe cannot use number atable of the variable.
+2. We cannot use a keywords for a Variable
+3. We can use underscore at the start of a variable 
+4. We canot use a Special characters at the start.
+"""
+
+# a# = 10
+# print(a)
+
+"""
+Keywords are reserve words use in programming langugae for the specific purpose we cannot use them for creating 
+a variable
+"""
+# a = 10
+# if a>10:
+#     print("A")
+# else:
+#     print("Nothing")
+# if1 = 10
+# print(if1)
+
+"""
+You should give 2 Hours to Python Practice lecture time is excluded. It means you should give atleast 3 Hours to
+Python Programming.
+"""
+
+
+
+
