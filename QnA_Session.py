@@ -21,3 +21,7 @@ Task is to perform action on number so maybe we will use either float or integer
 String, Integer, Float, Boolean, List, Tuple, Dictionary, Set
 """
 
+"""
+How to get data from user and Concatenate with Strings
+"""
+

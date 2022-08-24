@@ -290,6 +290,88 @@ You should give 2 Hours to Python Practice lecture time is excluded. It means yo
 Python Programming.
 """
 
+# name = input("Enter your name")
+# print("My Name is ",name)
+
+"""
+List is a collection of multiple data elements
+"""
+# data = [1,55,33,"omer","ali"]
+# print(data)
+
+"""
+Python accept string data in both quotations single and double but the best practice is to use a
+double because in some cases single quote create issues.
+"""
+
+# ALi's laptop mtlb ya k ali ka laptop
+
+# print("This is Ali's laptop")
+"""
+List is a Mutable datatype it means we can change data in list. SO LIst is a changeable
+"""
+
+# nums = [1,2,3,4,5]
+# print(nums)
+# # We display list after some changing
+# nums[4] = "FIVE"
+# print(nums)
+
+"""
+There are some builtin functions for list in Python 
+
+Q: How we can check Length of a List
+Ans:
+    We can check lenght of a List by using a len() function
+"""
+# nums = [1,2,3,4,5,44,33,43,66,2]
+# print(len(nums))
+
+"""
+Q: How we can add a data in a empty list
+Ans: We can add a data in empty list using builtin append() function
+"""
+
+"""
+We want to show first and last data element of list in upper-case 
+"""
+
+
+# names = []
+# # user_Value = input("Please Enter your name to add data in List")
+# names.append("Bilal")
+# names.append("Ali")
+# names.append("Saad")
+# names.append("Omer")
+# print(names)
+# print(names[0].upper())
+# print(names[-1].upper())
+
+"""
+If we are working with data in computer there are 4 basic operations that must included.
+CRUD. It stands for Create, Read, Update and Delete.
+Basically how we can use CRUD on list datatype. 
+"""
+
+#Create
+list1= [33,22,55,66,77,88]
+
+#Read
+print("This is my list data",list1)
+
+#Update
+list1[-1] = 100
+list1[-2] = 200
+print("List after Update Operation",list1)
+
+#Delete
+"""
+If we want to delete a data from a list then we will use a del keyword in Python
+"""
+del list1[3]
+print("List after delete operation",list1)
+
+
 
 
 
